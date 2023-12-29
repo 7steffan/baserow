@@ -1,6 +1,0 @@
-TEAMS = "teams"
-RBAC = "rbac"
-SSO = "sso"
-SUPPORT = "support"
-AUDIT_LOG = "audit_log"
-METRICS = "metrics"
