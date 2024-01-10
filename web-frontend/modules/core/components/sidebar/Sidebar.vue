@@ -85,7 +85,7 @@
           ></component>
           <li class="tree__item">
             <div class="tree__action sidebar__action">
-              <a class="tree__link" @click="$refs.trashModal.show()">
+            
                 <i class="tree__icon iconoir-bin"></i>
                 <span class="tree__link-text">
                   <span class="sidebar__item-name">
@@ -94,7 +94,7 @@
     </a>
                   </span>
                 </span>
-              </a>
+             
               <TrashModal ref="trashModal"></TrashModal>
             </div>
           </li>
