@@ -88,9 +88,11 @@
               <a class="tree__link" @click="$refs.trashModal.show()">
                 <i class="tree__icon iconoir-bin"></i>
                 <span class="tree__link-text">
-                  <span class="sidebar__item-name">{{
-                    $t('sidebar.trash')
-                  }}</span>
+                  <span class="sidebar__item-name">
+                  <a href="https://www.google.com">
+      <button>Google</button>
+    </a>
+                  </span>
                 </span>
               </a>
               <TrashModal ref="trashModal"></TrashModal>
